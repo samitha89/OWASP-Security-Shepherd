@@ -1,0 +1,85 @@
+		Field Training
+		
+1.	Insecure Direct Object References
+⦁	Intercept the request 
+⦁	Replace the word “guest” with “admin”
+
+2.	Poor Data Validation
+⦁	Intercept the request
+⦁	Change the userData to a negative value
+
+3.	Security Misconfiguration
+⦁	Use default Username and Password (“Admin”, ”Password”).
+
+4.	Broken Session Management
+⦁	Intercept the request
+⦁	Change the cookie value to “lessonComplete” 
+
+5.	Failure to restrict URL Access
+⦁	Inspect the HTML elements. 
+⦁	Remove the “Display: none” CSS property.
+
+6.	Cross Site Scripting
+⦁	Insert Javascript in the input field
+
+7.	Cross Site Scripting 1
+⦁	Insert Javascript using the attribute “onclick” of an input field
+
+		Private
+
+8.	Insecure Data Storage
+⦁	Using the less command the database can be viewed
+
+9.	Insecure Cryptographic Storage
+⦁	Used a Base64 decoder to decode the message.
+
+10.	SQL Injection
+⦁	Enter “ aa’ or ‘x’=’x  ”
+
+11.	Insecure Cryptographic Storage Challenge 1
+⦁	Use the 21 as the key for the decryption
+⦁	The cipher text : Ymj wjxzqy pjd ktw ymnx qjxxts nx ymj ktqqtbnsl xywnsl; rdqtajqdmtwxjwzssnslymwtzlmymjknjqibmjwjfwjdtzltnslbnymdtzwgnlf
+⦁	The message is : mylovelyhorserunningthroughthefieldwhereareyougoingwithyourbiga
+
+12.	Insecure Direct Object Reference Challenge 1
+⦁	Intercept the request
+⦁	Using the intruder in the Burpsuit designed a payload with various inputs as follows, 
+⦁	The User id is “11”
+
+13.	Poor Data Validation 1
+⦁	Using a negative quantity the challenge can be completed.
+
+14.	SQL Injection 1
+⦁	Same as the previous SQL injection
+
+15.	Reverse Engineering
+⦁	First convert apk to jar using dex2jar
+⦁	Using a Java decompiler the secret key is found which was hidden in the code
+
+20.	Session Management Challenge 1
+⦁	Intercept the request
+⦁	Decode the checksum.
+⦁	Modify and encode the checksum again.
+⦁	Forward the modified checksum
+
+21.	Failure to Restrict URL 1
+⦁	The URL of the admin submission can be found in one of the scripts
+
+22.	Unintended Data Leakage
+⦁	The log file which contains the key is kept in the following path,
+⦁	The Key is
+23.	Cross Site Request Forgery
+⦁	Used the modified URL to retrieve the key,
+
+24.	Content Provider Leakage
+⦁	The key can be found in following path using Android Debug Bridge.
+
+		Corporal
+
+25.	Reverse Engineering 1
+
+26.	Unvalidated Redirects and Forwards
+⦁	The key can be found using the following modified input
+
+27.	Client Side injection
+⦁	Same as the previous SQL injections
