@@ -23,7 +23,7 @@
 ⦁	Insert Javascript in the input field
 
 7.	Cross Site Scripting 1
-⦁	Insert Javascript using the attribute “onclick” of an input field
+⦁	Insert Javascript using the attribute “onclick” of an input field.
 
 		Private
 
