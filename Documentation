@@ -83,3 +83,7 @@
 
 27.	Client Side injection
 ⦁	Same as the previous SQL injections
+
+28.	sql injection 2
+⦁	There are some logs which contains the notes of users.
+⦁	Using social engineering the username and passoword can be guessed.
