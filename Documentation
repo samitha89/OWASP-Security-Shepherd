@@ -92,3 +92,7 @@
 ⦁	The app logs the track of user activities
 ⦁	The path to log file is /data/data/com.mobshep.poorauthentication/files/
 ⦁	Using the data in logs the username and password can be guessed
+
+30	Broken Crypto
+⦁	The messages in the ASCII notation contains the key
+⦁	Once the messages are converted to plain text, the key can be easily found
