@@ -87,3 +87,8 @@
 28.	sql injection 2
 ⦁	There are some logs which contains the notes of users.
 ⦁	Using social engineering the username and passoword can be guessed.
+
+29	Poor Authentication
+⦁	The app logs the track of user activities
+⦁	The path to log file is /data/data/com.mobshep.poorauthentication/files/
+⦁	Using the data in logs the username and password can be guessed
